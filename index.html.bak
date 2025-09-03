@@ -9,9 +9,10 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <main>
+	<div class="navbar">"Navbar" </div>
+    <div class= "main">
         <h1>Text Test</h1>  
-    </main>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
