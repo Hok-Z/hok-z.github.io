@@ -23,8 +23,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h4><b>Welcome</b></h4>
   </div>
   <div class="w3-bar-block">
-    <a href="#public-css" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa-solid fa-code"></i>CSS CODES</a> 
-    <a href="#comms" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-tag"></i>COMMISSIONS</a> 
+    <a href="https://hok-z.github.io/#public-css" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa-solid fa-code"></i>CSS CODES</a> 
+    <a href="https://hok-z.github.io/#comms" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-tag"></i>COMMISSIONS</a> 
     <a href="/termsofservice.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa-solid fa-shield-halved"></i>TERMS OF SERVICE</a> 
   </div>
   <div class="w3-panel w3-large">
