@@ -16,7 +16,7 @@
     overflow: auto;
     margin-bottom: 50px;
 }
-
+ 
 .QuoteHeader {
     padding-top: 10px;
     color: #000000 !important;
@@ -34,7 +34,7 @@
 }
 
 .QuoteEntry:nth-child(even) {
-    background: #0000001a;
+    background: #0000001a;	
 }
 
 p.username {
