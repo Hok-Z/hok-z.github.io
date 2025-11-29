@@ -9,7 +9,7 @@
 }
 
 .QuoteWall {
-    background: #00000000 !important;
+    background: #00000014 !important;
     border-radius: 2px !important;
     border: 2px solid  !important;
     height: 200px !important;
@@ -28,13 +28,14 @@
 }
 
 .QuoteEntry {
+    background: #ffffff0d !important;	
     border-bottom: 1px solid !important;
     padding: 5px !important;
     height: 70px !important;
 }
 
 .QuoteEntry:nth-child(even) {
-    background: #0000001a !important;	
+    background: #0000000d !important;	
 }
 
 .username {
