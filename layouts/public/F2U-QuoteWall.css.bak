@@ -1,13 +1,3 @@
-.QuoteContainer::after {
-    content: "Code by Hok-Z #170947";
-    font-size: 10px;
-    margin-top: -50px !important;
-    display: block;
-    float: right;
-    color: #07070736;
-    pointer-events: all;
-}
-
 .QuoteWall {
     background: #00000000;
     border-radius: 2px !important;
@@ -44,15 +34,19 @@ p.username {
 
 p.quote {
     color: #000000bf;
+    display: flex;
     font-style: italic; 
-    float: left;
 }
 
-p.text-muted {
+p.time {
     color: #313131 !important;
-    float: right;
-    font-size: 10px;
+    margin-left: 12px;
     margin-top: 4px;
+    font-size: 12px;
+}
+
+.topline {
+    display: inline-block;
 }
 
 .QuoteWall::-webkit-scrollbar,
