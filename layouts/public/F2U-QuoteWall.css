@@ -54,7 +54,7 @@
 .QuoteContainer .QuoteWall .QuoteEntry .time {
     float: right !important;
     font-size: 10px !important;
-    margin-top: 4px !important;
+    margin-top: -10px !important;
 }
 
 .QuoteWall::-webkit-scrollbar,
