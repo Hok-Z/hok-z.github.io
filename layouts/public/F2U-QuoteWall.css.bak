@@ -1,58 +1,59 @@
 .QuoteContainer::after {
-    content: "Code by Hok-Z #170947";
-    font-size: 10px;
+    content: "Code by Hok-Z #170947" !important;
+    font-size: 10px !important;
     margin-top: -50px !important;
-    display: block;
-    float: right;
-    color: #07070736;
-    pointer-events: all;
+    display: block !important;
+    float: right !important;
+    color: #07070736 !important;
+    pointer-events: all !important;
 }
 
 .QuoteWall {
-    background: #00000000;
+    background: #00000000 !important;
     border-radius: 2px !important;
-    border: 2px solid #00000082;
-    height: 200px;
-    overflow: auto;
-    margin-bottom: 50px;
+    border: 2px solid  !important;
+    height: 200px !important;
+    overflow: auto !important;
+    margin-bottom: 50px !important;
+    text-align: left !important;
 }
  
 .QuoteHeader {
-    padding-top: 10px;
-    color: #000000 !important;
-    background: #00000038;
+    padding-top: 10px !important;
+    background: #00000038 !important;
     height: 40px !important;
-    border-bottom: 1px solid black;
-    font-weight: 900;
+    border-bottom: 1px solid;
+    font-weight: 900 !important;
+    text-align: center;
 }
 
 .QuoteEntry {
-    border-bottom: 1px solid #00000069;
-    padding: 5px;
-    color: white;
-    height: 70px;
+    border-bottom: 1px solid !important;
+    padding: 5px !important;
+    height: 70px !important;
 }
 
 .QuoteEntry:nth-child(even) {
-    background: #0000001a;	
+    background: #0000001a !important;	
 }
 
-p.username {
-    color: #000000 !important;
-    display: flex;
+.username {
+    display: flex !important;
+    margin: 0 0 0 0 !important;
+    font-weight: bold !important;
 }
 
-p.quote {
-    color: #000000bf;
-    font-style: italic; 
-    float: left;
+.quote {
+    font-style: italic !important; 
+    float: left !important;
+    padding-left: 5px !important;
+    padding-top: 7px !important;
 }
 
-p.text-muted {
-    color: #313131 !important;
-    float: right;
-    font-size: 10px;
-    margin-top: 4px;
+.QuoteContainer .QuoteWall .QuoteEntry .time {
+    float: right !important;
+    font-size: 10px !important;
+    margin-top: 4px !important;
 }
 
 .QuoteWall::-webkit-scrollbar,
