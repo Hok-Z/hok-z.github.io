@@ -97,7 +97,7 @@ Ryouta #276513 || plutoheart #52831/#58766 || tawnycollar #251887/#254590
     --header: url("https://i.ebayimg.com/images/g/fH4AAOSwqu9U9W8r/s-l1200.jpg") center center !important;
     --chatBoxBackground: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7d045e6-18b5-4814-99bd-1c53721d4c07/dksi4c4-62a59263-2f0a-48f5-bb3a-b8a654816953.jpg/v1/fill/w_958,h_562,q_75,strp/chatbox_background_by_neforium_dksi4c4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYyIiwicGF0aCI6Ii9mL2U3ZDA0NWU2LTE4YjUtNDgxNC05OWJkLTFjNTM3MjFkNGMwNy9ka3NpNGM0LTYyYTU5MjYzLTJmMGEtNDhmNS1iYjNhLWI4YTY1NDgxNjk1My5qcGciLCJ3aWR0aCI6Ijw9OTU4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.b6bPwx3W7CVuOWg7wPBocr_M9IoxBK7ksb7jgkwjkhY");
     --kingProfileBorder: url("https://shared.akamai.steamstatic.com/community_assets/images/items/1466640/e089c634ffef43e5bc6e45e1964fd7b93feb6d2f.png");
-    --playerProfileBorder: url("https://i.imgur.com/X7qx2Yh.png");
+    --playerProfileBorder: url("");
     
     /*Icons and Logos */
     --LioLogo: url("https://deadbydaylight.com/static/f2a90cd827af5aa5e36279ab007253ce/0a52c/CM_1549_DBD_Character_Render_Killer_Xenomorph_45dfe1e09a.png");
@@ -982,10 +982,6 @@ img[src$="beetlebook.png"] {
 #player > tbody > tr.right > td:nth-child(2)::after {
     content: var(--playerProfileBorder);
     position: absolute;
-    mix-blend-mode: ;
-    top: -519px;
-    right:-832px;
-    scale: .125;
     transform: scaleX(-1);
 	overflow: hidden !important;
 } 
