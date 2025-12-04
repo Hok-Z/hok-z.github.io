@@ -1492,20 +1492,20 @@ img[src$="palehorseofapocalypse.png"] {
 /*-------------------------*/
 /*[October] Pumpkins*/
 /*-------------------------*/
-div.feature.auto img.floatleft {
+.feature.auto img.floatleft {
    content: url("https://i.imgur.com/AoSxwlb.png") !important;
    height: 200px !important;
    margin-left: 30px;
 }
 
+
 /*-------------------------*/
 /*[December] Snuhlions*/
 /*-------------------------*/
-div.feature.auto.center img {
-   content: url("https://i.ytimg.com/vi/KfOvJCIYjFM/maxresdefault.jpg") !important;
+.feature.auto.center img {
+   content: url("https://i.ytimg.com/vi/KfOvJCIYjFM/maxresdefault.jpg");
    height: 300px !important;
 }
-
 /*-------------------------*/
 /*Territory Boxes*/
 /*-------------------------*/
