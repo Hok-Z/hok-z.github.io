@@ -581,7 +581,9 @@
 	border-radius: 8px 8px 0px 0px!important
 }
 
-#attack .bottom {
-	background: black;
+#attack .bottom, #about .bottom {
+background: black !important;
 	border-radius: 0px 0px 8px 8px !important;
 }
+
+.combo-selection-container {background: #000000;}

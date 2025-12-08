@@ -72,7 +72,7 @@
 	
 	
 	/*======== RAMKA DOOKOŁA "spar" i Edit Detail KOLOR W SORDKU RAMKI ======== */
-	input, select, textarea, button, .item, .item-header {
+	input, select, textarea, button, .item, .item-header{
 	    background-color: rgb(0, 0, 0) !important;
 	    color: #ffffff !important;
 	    border: 1px solid #ffffff9e !important;
@@ -322,7 +322,7 @@
 	/* ======== KOLOR RAMKI ILE ZMUTOWANYCH LWOW a TUTAJ KOLOR OBRAMOWANIA RAMEK NA DOLE======== */
 	.table .bottom, .table .top, .table th {
 	    text-align: center;
-	    background: #000;
+	    background: transparent;
 		padding: 8px 15px;
 	    font-size: 15px;
 	    font-weight: bold;
@@ -465,7 +465,8 @@
 	  font-size: 21px;
 	  margin: 0 0 5px 0;
 	}
-	
+
+
 	
 	/* ======== IMIE LWA/KRÓLA [ ]'s DEN NAGŁOWEK ROZMIAR CZCIONKI WYŚRODKOWANY ======== */
 	h1 {
@@ -545,16 +546,21 @@
 	}
 
 /* Feed All Play All Hover*/
-#pageContainer > center > div:nth-child(32) > form:nth-child(1) > div > div,
-#pageContainer > center > div:nth-child(32) > form:nth-child(2) > div > div {
+.feature {
 	height: 30px;
 	transition: 1s;
 }
 
-#pageContainer > center > div:nth-child(32) > form:nth-child(1) > div > div:hover,
-#pageContainer > center > div:nth-child(32) > form:nth-child(2) > div > div:hover {
-	height: 150px !important;
+.feature:hover {
+	height: 150px;
 	transition: 1s;
+}
+
+.feature.auto.center {
+	height: inherit;
+}
+.feature.auto.center:hover {
+	height: inherit;
 }
 
 #pageContainer > center > div:nth-child(43) > div:nth-child(1) > a > div,
@@ -567,4 +573,15 @@
 	    box-shadow: 0 0 5px #ffffff61 !important;
 		border-radius: 15px;
 	}
-	
+
+
+
+#player .top, #about .top, #attack th, table:nth-child(9) > tbody > tr:nth-child(1) > td {
+	background: black;
+	border-radius: 8px 8px 0px 0px!important
+}
+
+#attack .bottom {
+	background: black;
+	border-radius: 0px 0px 8px 8px !important;
+}
