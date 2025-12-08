@@ -1,0 +1,570 @@
+/*======== JAK WRZUCASZ OBRAZKI z DROPBOXA TO KONCOWKE &dl-0 ZMIEN NA &raw=1 ========*/
+	
+	/* ======== GOOGLE FONT BITTER ======== */
+	@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+	
+	
+	/* ========OGÓLNA CZCIONKA: BITTER + BIAŁY KOLOR ======== */
+	.container, .content, .box, td, th, a, p, div, span, h1, h2, h3, h4, h5, h6, li {
+	    font-family: 'Bitter', serif !important;
+	    color: #c4c4c4 !important;
+	}
+	
+	
+	/* ======== GŁOWNE TŁO PROFILU ======== */
+	body {
+	    background-image: url('https://i.imgur.com/eYwpfhk.jpeg') !important;
+	    background-size: cover !important;
+	    background-repeat: no-repeat !important;
+	    background-attachment: fixed !important;
+	    background-position: center top !important;
+	    font-family: 'Bitter', serif !important;
+	    color: #c4c4c4 !important;
+	}
+	
+	/* ======== Topbar & Navbar ======== */
+	.topbar  {
+	  height: 35px;
+	  border-radius: 0px 0px 7px 7px !important
+	}
+	
+	.main {
+	  border-radius: 7px !important;
+	}
+	
+	
+	.navbar {
+	  height: 35px;
+	  z-index: 2;
+	  border-radius: 7px 7px 0px 0px !important;
+	}
+	
+	/* ======== Color on HOVER "Den/Crosssroads/Hoard/Oasis/Chatter/News/Event/Faq" ======== */
+	.navbar-default .navbar-nav li a:hover {
+	        background: #3b3b3c;
+	}
+	
+	/* ======== RAMKA DOOKOŁA CAŁEGO PROFILU ==== usnięte .bottom czyli kreska nad napisem ile mutacji jest w pridzie ======== */
+	.main, .topbar, .navbar, .panel, .feature,
+	.comment, .lionImage {
+	    background-color: rgba(0, 0, 0, .57) !important;
+	    color: #e0e0e000 !important;
+	    border: 1px solid #ffffff59 !important;
+	    box-shadow: 0 0 5px #ffffff59;
+		
+	}
+	
+	@media (max-width: 767px) {
+	#bs-example-navbar-collapse-1 {
+	    background-image: url('https://i.imgur.com/Yso7Lwp.jpeg');
+	}
+	
+	#bs-example-navbar-collapse-1 a {
+		color: white !important;
+		background: #0000008a;
+		border-radius: 10px;
+	}
+	
+	#bs-example-navbar-collapse-1 a:hover {
+		background: #000000c7;
+	}
+	}
+	
+	
+	/*======== RAMKA DOOKOŁA "spar" i Edit Detail KOLOR W SORDKU RAMKI ======== */
+	input, select, textarea, button, .item, .item-header {
+	    background-color: rgb(0, 0, 0) !important;
+	    color: #ffffff !important;
+	    border: 1px solid #ffffff9e !important;
+	}
+	
+	/* ======== LOGO LIODEN ======== */
+	/* ========LOGO LIODEN I ŚRODKOWANIE NAPISÓW NA NAVBAR Den,Crossroads,Hoard,Oasis,Chatter,News,Event,Faq ======== */
+	img[src$="logo-full-2.png"] {
+	    content: url('https://i.imgur.com/ObOr869.png') !important;
+	    width: auto !important;
+	    max-height: 100px !important;
+	    object-fit: contain !important;
+	    display: block !important;
+	    margin-top: -15px;
+		margin-right: 30px;
+		margin-left: 25px;
+	   filter: brightness(100%) contrast(120%);
+	}
+
+	/* ======== Pasek przewijania po prawej (scrollbar) ======== */
+	::-webkit-scrollbar {
+	    width: 9px;
+	}
+	::-webkit-scrollbar-track {
+	    background: #1a1a1a;
+	}
+	::-webkit-scrollbar-thumb {
+	    background: #320d9a7;
+	}
+	
+	
+	/* ======== ALERTS COLORS "Hunting/Patroling/Inbox" ======== */
+	.alert {
+	    background: #448cf836;
+	    color: #0000;
+	    text-align: center;
+	}
+	
+	
+	.alert-warning,
+	.alert-danger {
+	    background: #4c0ae033;
+	    color: #0000;
+	    text-align: center;
+	}
+	
+	
+	/* ======== RAMKA dla głownych statów, panel gracza (id), Sparing, Allias,Clan,obrazki na dole strony ======== */ 
+	#about,
+	#player,
+	#sparring,
+	#reclaim,
+	#allies,
+	#clans,
+	.dynastycollection .left {
+	    border: 1px solid #ffffff59 !important;
+	    background-color: rgba(0, 0, 0, 0.4) !important;
+	    box-shadow: 0 0 5px #ffffff59 !important;
+	}
+	
+	
+	/* ======== ENERGY BAR BACKGROUND ======== */
+	.progress {
+		background: rgb(0, 0, 0);
+		color: #000000 !important;
+		border-radius: 10px !important
+	}
+	
+	
+	/* ======== ENERGY BAR INSIDE COLOR poprzedni kolor #2a2828ab 5%, $2d3bad 5%, #8967e6 90%======== */
+	.progress-bar {
+		background: linear-gradient(to bottom,  #8e878700 5%, #2d007e73 5%, #5c73cf 95%);
+		color: #fff0 !important;
+		border-radius: 0px !important
+	}
+	
+	
+	/* ======== ENERGY BAR TEXT COLOR ======== */
+	.progress div {
+		color: #fff !important
+	}
+	
+	/* ======== KOLOR NAPISU "ACCOUNT SETTINGS" i BOX DOOKOLA ======== */
+	a[href*="editdetailspanel"],
+	a[href*="account-settings.php"] {
+	    background-color: rgba(129, 72, 72, 0) !important;
+	    color: #fff !important;
+	    border: none !important;
+	}
+	
+	/* ======== SB ICON ======== */
+	img[src*="icon-beetle-silver.png"] {
+	    content: url('https://i.imgur.com/VNGLWJy.png') !important;
+	    width: 23px !important;
+	    height: 23px !important;
+	    margin-right: 5px !important;
+	    vertical-align: middle !important;
+	}
+	/* ======== GB ICON ======== */
+	img[src*="icon-beetle-gold.png"] {
+	    content: url('https://i.imgur.com/lCwVecr.png') !important;
+	    width: 23px !important;
+	    height: 23px !important;
+	    margin-right: 5px !important;
+	    vertical-align: middle !important;
+	}
+	
+	
+	/* ======== CAVE / BEETLE IMAGES ======== */
+	img[src*="unsortedlionsbanner.png"] {
+	    content: url('https://i.imgur.com/jV4Bzjh.png') !important;
+	    width: 100% !important;
+	    height: auto !important;
+	    object-fit: contain !important;
+	}
+	img[src*="nestingbanner.png"] {
+	    content: url('https://i.imgur.com/jV4Bzjh.png') !important;
+	    width: 250px !important;
+	    height: 60px !important;
+	    object-fit: cover !important;
+	    display: inline-block !important;
+	}
+	img[src*="prideoverviewbanner.png"] {
+	    content: url('https://i.imgur.com/jV4Bzjh.png') !important;
+	    width: 260px !important;
+	    height: 60px !important;
+	    object-fit: cover !important;
+	    display: inline-block !important;
+	}
+	img[src*="cavedefault.jpg"] {
+	    content: url('https://i.imgur.com/pv5ZBEI.png') !important;
+	    width: 250px !important;
+	    height: 130px !important;
+	    object-fit: cover !important;
+	    display: inline-block !important;
+	}
+	img[src*="beetleunsorted.png"],
+	img[src*="beetlemound.png"],
+	img[src*="addbeetlemound.png"] {
+	    content: url('https://i.imgur.com/rxan5Ij.png') !important;
+	    width: 70px !important;
+	    height: 80px !important;
+	    object-fit: cover !important;
+	    display: inline-block !important;
+	}
+	
+	
+	
+	/*======== Obrazki na dole strony 240x50 (King Dynasty,Pride Dynasty, Achiev, Showcase, BeetleBook) ======== */
+	img[src$="den_ancestors.png"] {
+	content: url('https://i.imgur.com/ind2Koh.png');
+	}
+	
+	
+	img[src$="ancestorsfem.png"] {
+	content: url('https://i.imgur.com/ind2Koh.png');
+	}
+	
+	
+	
+	img[src$="den_achievements.png"] {
+	content: url('https://i.imgur.com/ind2Koh.png');
+	}
+	
+	
+	img[src$="den_showcase.png"] {
+	content: url('https://i.imgur.com/ind2Koh.png');
+	}
+	
+	
+	img[src$="beetlebook.png"] {
+	content: url('https://i.imgur.com/ind2Koh.png');
+	}
+	
+	
+	/* ======== PODPIS CREATOR CSS BY (NAZWA I Twoje ID  ======== */
+	.breadcrumb::after {
+	    content: "/⠀CSS designed #537744, corrected by #170947";
+	    color: #ffffff;
+	    position: absolute;
+	    margin-left: 13px;
+	}
+	
+	
+	
+	/* ======== Zaokrąglenie avataru lwa i graczaa - CIRCULAR LION AND USER AVATAR ======== */
+	#lion_image {
+		border-radius: 10% !important;
+		overflow: hidden;
+		margin-top: 15px; /* May need adjusting */
+		margin-left: 10px /* May need adjusting */
+	
+	}
+	
+	
+	#player img {
+		border-radius: 10% !important;
+		overflow: hidden
+	}
+	
+	
+	/*======== PANEL GŁOWNY KOLOR sprawdz te kolory tla #0000 lub #00000b00 ======== */
+	.col-md-9 {
+	    background: 0000;
+	    min-height: 800px;
+	    padding-top: 25px;
+	}
+	
+	
+	/* ======== Cień Dookoła prawego panel ========*/ 
+	.col-md-3 .panel {
+	    border: 1px solid #b3121200;
+	    background: #ebeff000;
+	    box-shadow: 0px 0px 3px #ddd0;
+	}
+	
+	
+	/*======== NaVBar KOLOR - Home, czyj Den i autor CSS z ID ======== */
+	.breadcrumb {
+	    background: #ffffff1a;
+	    font-size: 13px;
+		display: block;
+	}
+	
+	/* ======== KOLOR TŁA CAVE GRID ======== */
+	.cave-grid {
+	    background: #00000061;
+	    border-radius: 5px;
+	    max-width: 260px;
+	    overflow: hidden;
+	    padding: 0 0 5px 0;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	}
+	
+	/* ======== KOLOR TŁA MOUND GRID ======== */
+	.mound-grid {
+	    background: #00000061;
+	    border-radius: 10px;
+	    width: 100%;
+	    overflow: hidden;
+	    padding: 5px 5px 10px;
+	    margin: 0 auto;
+	    margin-bottom: 15px;
+	}
+	
+	/* ======== KOLOR RAMKI ILE ZMUTOWANYCH LWOW a TUTAJ KOLOR OBRAMOWANIA RAMEK NA DOLE======== */
+	.table .bottom, .table .top, .table th {
+	    text-align: center;
+	    background: #000;
+		padding: 8px 15px;
+	    font-size: 15px;
+	    font-weight: bold;
+		text-align: center;
+	}
+	/* ======== KOLOR USTAWIEN KONTA i paskow View Breeding,UserLog,Attack History ========*/
+	div .left {
+	    background-color: rgba(129, 72, 72, 0) !important;
+	    padding: 5px 8px;
+	    border-radius: 4px;
+	    border: 0;
+	}
+	
+	/* ======== KOLOR TŁA TABELEK profil lwa, prawa strona i zaookrąglenie ======== */
+	.inner-table .right {
+	    padding: 7px 7px;
+	    text-align: left;
+	    border-top-right-radius: 1px;
+	    border-bottom-right-radius: 1px;
+	    background: 000000;
+	}
+	
+	
+	/* ======== KOLOR TŁA TABELEK prof lwa, lewa strona ======== */
+	.inner-table .left {
+	    padding: 7px 7px;
+	    text-align: left;
+	    border-top-left-radius: 1px;
+	    border-bottom-left-radius: 1px;
+	    margin-bottom: 2px;
+		background: transparent !important;	
+	}
+	
+	
+	/* ======== KOLOR TŁA za zdj lwa,zdj gracza, klanami, znajomymi i obrazkami na dole strony (King Dynasty, Pride Dynasty, Achiev, Showcase, Beetle Book) ======== */
+  .dynastycollection .left, .table {
+	    border: 1px solid #ffffff59 !important;
+	    background-color: rgba(0, 0, 0, .3) !important;
+	    box-shadow: 0 0 5px #ffffff61 !important;
+	}
+	
+	/* ======== PRIBA ZMIANY KOLORU KLANY I ALLTSOW ======== */
+	#about,#sparring, #reclaim, #allies, #clans {
+	    border: 1px solid #ffffff59 !important;
+	    background-color: rgb (0, 0, 0, .4) !important;
+	    box-shadow: 0 0 5px #0000 !important;
+	}
+	
+	#about .left, #sparring .left, #reclaim .left, #allies .left, #clans .left {
+	    background: #8ca5a100;
+	    border-radius: 0;
+	}
+	
+	/*======== KURWA nie wiem gdzie to belonga ale od dzisiaj tutaj - Kolor boxa naookolo SPARRING ========*/
+	.table .right_odd {
+	    background: #00000000;
+	}
+	
+	/* ======== KOLOR TŁA GUZIKÓW ======== */
+	.select-control, 
+	a.button, 
+	button.button, 
+	input[type="button"], 
+	input[type="submit"], 
+	input[type="reset"] {
+	    background: linear-gradient(to bottom, #8e878700 5%, #2d007e73 5%, #5c73cf 95%) !important;
+	    text-shadow: 1px 1px 0px #000;
+	    font-weight: bold;
+	    font-size: 13px;
+	    padding: 3px 12px;
+	    margin: 2px 0;
+	    border-radius: 3px;
+	    color: #fff !important; /* na wszelki wypadek */
+	}
+	
+	
+	/* ======== UKRYWANY PANEL ALLIAS - po najechaniu pokazuja sie znajomi ======== */
+	#allies tr:not(:first-of-type) {
+	  opacity: 0;
+	  transition: max-height 0.4s ease, opacity 0.4s ease;
+	}
+	
+	/* ======== UKRYWANY PANEL ALLIAS - po najechaniu pokazuja sie znajomi ======== */
+	#allies:hover tr:not(:first-of-type) {
+	  opacity: 1;
+	}
+	
+	/* ======== ROZMIAR BOXÓW i CZCIONKA - KingDynasty/PrieDynasty/Achievements/Showcase/BeetleBook ======== */ 
+	.dynastylist {
+	  width: 160px;       /* mniejsza szerokość, zamiast domyślnej */
+	  font-size: 3px;    /* zmniejsza tekst, jeśli chcesz */
+	  padding: 0px !important;
+		margin: 5px;
+	  
+	}
+	
+	
+	/* ======== ONLINE MEMBER - Kropka zamieniona na obrazek (tutaj akurat GIF) wyrównany z Nickiem ======== */
+	.member-online {
+	  background-image: url('https://i.imgur.com/Po40jo6.gif');
+	  background-size: contain;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  width: 90px;
+	  height: 65px;
+	  display: inline-block;
+	  vertical-align: middle;  /* wyrównanie z tekstem */
+	  margin-left: 6px;        /* odstęp od nicka */
+	  border-radius: 0;
+	  background-color: transparent;
+	}
+	
+	
+	/* ======== OFFLINE STATUS MEMBER - Kropka zamieniona na szary kolor ======== *
+	.member-offline {
+	    height: 17px;
+	    width: 17px;
+	    display: inline-block;
+	    background: #3f4042e0
+	}
+	
+	/* ======== Ustawia PANEL FeedAll/PlayAll pod sobą, bez ingerencji w dynastylist - ALSO Event Banners / Snuhlions / Pumpkins======== */
+	.feature {
+	  width: 100% !important;
+	  display: block;
+	  overflow: hidden;
+	  transition: max-height 0.5s ease;
+	  background-color: rgba(255, 255, 255, 0.05);
+	  border: 1px solid #999;
+	  border-radius: 6px;
+	  color: white !important;
+	  padding: 10px;
+	  margin-bottom: 12px;
+	  position: relative;
+	  box-sizing: border-box;
+	}
+	
+	/* ======== PANEL FeedAll/PlayAll Styl nagłówka ======== */
+	.feature h3 {
+	  font-size: 21px;
+	  margin: 0 0 5px 0;
+	}
+	
+	
+	/* ======== IMIE LWA/KRÓLA [ ]'s DEN NAGŁOWEK ROZMIAR CZCIONKI WYŚRODKOWANY ======== */
+	h1 {
+	  text-align: center;              /* Wyśrodkowanie poziome */
+	  font-size: 32px;                 /* Rozmiar czcionki */
+	  font-weight: bold;              /* Pogrubienie tekstu */
+	  font-family: 'Bitter', serif;  /* Czcionka */
+	  margin-top: 50px;               /* Górny margines */
+	  letter-spacing: 7px;            /* Rozstaw liter */
+	}
+	
+	/* ======== ZAOKRĄGLENIE DO RAMEK DO WSZAYSTKIEGO OPRÓCZ Alertów, Paska Home gdzie jest kreator CSS, napisów na dole strony View Breeding User Log Attack History ======== */
+	table, td, th, .table-responsive, .feature {
+	  border-radius:7px !important;
+	
+	}
+	/* ======== ZAOKRĄGLENIE DO RAMEK ale nie wiem o co chozi bo tylko trzyma zaookraglenie i kolor naokolo Clan Memberships jak usuniesz to przestaje dzialac ramka wtf ======== */
+	table {
+	  border-collapse: separate !important;
+	  border-spacing: 0 !important;
+	
+	}
+	
+
+	
+	 .progress, .topbar, .navbar, .cave-grid, .mound-grid, .feature, .dynastycollection div, .main, .panel, #editdetailspanel, #pageContainer > center > form > table > tbody > tr > th {
+	  animation: pulse-border 3.5s ease-in-out infinite !important;
+	}
+	
+
+	#about.table tbody, #player tbody, #sparring tbody, #allies tbody, #clans tbody, #attack {
+	  animation: pulse-border 3.5s ease-in-out infinite;
+	  border-radius: 10px;
+	}
+
+/* ======= RAMKA PULSUJĄCA KOLOROWA DOOKOŁA wszystkiego oprócz napisów View Breedinng,Userlog,Attack History, Account Settings ======= */
+	@keyframes pulse-border {
+	  0%, 100% {
+	    box-shadow: 0 0 10px #ffffffc7;
+	  }
+	  50% {
+	    box-shadow: 0 0 10px #3d3d3f;
+	  }
+	}
+	
+	.auto tbody {
+		box-shadow: none !important;
+		animation: none !important;
+	}
+	
+	
+	/*Kolor CHATBOXA kolor wiadomości na przemian*/
+
+	.s-chat-message:nth-child(2n) {
+	background-color: #696c7063 !important;
+	}
+	
+	
+	.s-chat-message:nth-child(2n+1) {
+	background-color: rgba(107, 154, 217, .32) !important;
+	}
+	
+	
+	#btnLoadNewMessages, #btnChatSettings, .emoteInput , .s-chat-message_menu {
+	    background-color: transparent !important;
+	    border: none !important;
+	}
+	
+	
+	/* ======== UKRYTY BOX  "Social Media" ======== */ 
+	#pageSidebar > div.col-md-12.col-xs-12 > div:nth-child(4) {
+	    display: none !important;
+	}
+	input.floatright {
+	  visibility: hidden !important;
+	  pointer-events: none !important;
+	}
+
+/* Feed All Play All Hover*/
+#pageContainer > center > div:nth-child(32) > form:nth-child(1) > div > div,
+#pageContainer > center > div:nth-child(32) > form:nth-child(2) > div > div {
+	height: 30px;
+	transition: 1s;
+}
+
+#pageContainer > center > div:nth-child(32) > form:nth-child(1) > div > div:hover,
+#pageContainer > center > div:nth-child(32) > form:nth-child(2) > div > div:hover {
+	height: 150px !important;
+	transition: 1s;
+}
+
+#pageContainer > center > div:nth-child(43) > div:nth-child(1) > a > div,
+#pageContainer > center > div:nth-child(43) > div:nth-child(2) > a > div,
+#pageContainer > center > div:nth-child(43) > div:nth-child(3) > a > div,
+#pageContainer > center > form:nth-child(46) > div.left {
+		background: black !important;
+	    animation: pulse-border 3.5s ease-in-out infinite;
+	    border: 1px solid #ffffff59 !important;
+	    box-shadow: 0 0 5px #ffffff61 !important;
+		border-radius: 15px;
+	}
+	
