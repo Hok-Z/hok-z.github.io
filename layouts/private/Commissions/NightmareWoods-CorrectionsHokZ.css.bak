@@ -190,15 +190,15 @@
 	}
 	img[src*="nestingbanner.png"] {
 	    content: url('https://i.imgur.com/jV4Bzjh.png') !important;
-	    width: 250px !important;
-	    height: 60px !important;
+	    width: 100% !important;
+	    height: auto !important;
 	    object-fit: cover !important;
 	    display: inline-block !important;
 	}
 	img[src*="prideoverviewbanner.png"] {
 	    content: url('https://i.imgur.com/jV4Bzjh.png') !important;
-	    width: 260px !important;
-	    height: 60px !important;
+	    width: 100% !important;
+	    height: auto !important;
 	    object-fit: cover !important;
 	    display: inline-block !important;
 	}
@@ -548,12 +548,12 @@
 /* Feed All Play All Hover*/
 .feature {
 	height: 30px;
-	transition: 1s;
+	transition: .6s;
 }
 
 .feature:hover {
 	height: 150px;
-	transition: 1s;
+	transition: /6s;
 }
 
 .feature.auto.center {

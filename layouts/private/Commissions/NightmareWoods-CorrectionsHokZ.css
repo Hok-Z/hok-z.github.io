@@ -548,12 +548,12 @@
 /* Feed All Play All Hover*/
 .feature {
 	height: 30px;
-	transition: 1s;
+	transition: .2s;
 }
 
 .feature:hover {
 	height: 150px;
-	transition: 1s;
+	transition: .2s;
 }
 
 .feature.auto.center {
@@ -563,9 +563,7 @@
 	height: inherit;
 }
 
-#pageContainer > center > div:nth-child(43) > div:nth-child(1) > a > div,
-#pageContainer > center > div:nth-child(43) > div:nth-child(2) > a > div,
-#pageContainer > center > div:nth-child(43) > div:nth-child(3) > a > div,
+.col-sm-4 .left,
 #pageContainer > center > form:nth-child(46) > div.left {
 		background: black !important;
 	    animation: pulse-border 3.5s ease-in-out infinite;
@@ -587,3 +585,5 @@ background: black !important;
 }
 
 .combo-selection-container {background: #000000;}
+
+.combo-select-row:hover {background: #ffffff21;}
