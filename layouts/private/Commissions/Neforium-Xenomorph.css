@@ -90,17 +90,17 @@ Ryouta #276513 || plutoheart #52831/#58766 || tawnycollar #251887/#254590
 /*-------------------------*/
 
     /*Main Images & Gifs*/
-    --backgroundIMG: url("https://wallpaper.forfun.com/fetch/79/79370b095edc2bd47d5fdcaa2bdd97bc.jpeg");
-    --backgroundGIF: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExN21mZDU2dnhxZmg3em85b3V6a2hydmxqcGFvMGV0NTF0M3J4cmsyZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3bPJplxoZ4FZp67tgJ/giphy.webp");
-    --backgroundMobileIMG: url("https://i.pinimg.com/736x/63/12/31/6312319ed7b6e72cc934377085935485.jpg");
-    --navbarMobileIMG: url("https://img.goodfon.com/original/1920x1080/6/3d/alien-chuzhoy-xenomorph-prishelec.jpg");
-    --header: url("https://i.ebayimg.com/images/g/fH4AAOSwqu9U9W8r/s-l1200.jpg") center center !important;
-    --chatBoxBackground: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7d045e6-18b5-4814-99bd-1c53721d4c07/dksi4c4-62a59263-2f0a-48f5-bb3a-b8a654816953.jpg/v1/fill/w_958,h_562,q_75,strp/chatbox_background_by_neforium_dksi4c4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYyIiwicGF0aCI6Ii9mL2U3ZDA0NWU2LTE4YjUtNDgxNC05OWJkLTFjNTM3MjFkNGMwNy9ka3NpNGM0LTYyYTU5MjYzLTJmMGEtNDhmNS1iYjNhLWI4YTY1NDgxNjk1My5qcGciLCJ3aWR0aCI6Ijw9OTU4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.b6bPwx3W7CVuOWg7wPBocr_M9IoxBK7ksb7jgkwjkhY");
+    --backgroundIMG: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_Background.jpeg?raw=true");
+    --backgroundGIF: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_BackgroundGIF.webp?raw=true");
+    --backgroundMobileIMG: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_BackgroundMobile.jpg?raw=true");
+    --navbarMobileIMG: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_NavbarBackgroundMobile.jpg?raw=true");
+    --header: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_Header.jpg?raw=true") center center !important;
+    --chatBoxBackground: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Chatbox_Static.jpg?raw=true");
     --kingProfileBorder: url("https://shared.akamai.steamstatic.com/community_assets/images/items/1466640/e089c634ffef43e5bc6e45e1964fd7b93feb6d2f.png");
     --playerProfileBorder: url("");
     
     /*Icons and Logos */
-    --LioLogo: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWg5M2I1eTdzdjZrZzJyMTc3Y3Z4MHliMWo3a2s4dW5zeDI5ZDRueiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/7KeTpTYLZQl7G/giphy.gif");
+    --LioLogo: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Xenomorph_LogoReplacer.webp?raw=true");
     --online: url("");
     --offline: url("");
     --beetleSilver: url("");
@@ -108,35 +108,35 @@ Ryouta #276513 || plutoheart #52831/#58766 || tawnycollar #251887/#254590
 
     /*Player Actions - 24x24px */
     --commentMessage: "Pray it doesn't hear you...";
-    --message: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --sendGift: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --createTrade: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --vWishlist: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --vTrade: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --block: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
-    --addFriend: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06d6969c-cf21-45a7-b958-8c1d86fcc96f/d8remgx-fb04151b-e5a0-4e29-a92e-41db2b87e959.png/v1/fill/w_1024,h_768/horned_alien_egg_by_pixelpaintdeviant_d8remgx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6Ii9mLzA2ZDY5NjljLWNmMjEtNDVhNy1iOTU4LThjMWQ4NmZjYzk2Zi9kOHJlbWd4LWZiMDQxNTFiLWU1YTAtNGUyOS1hOTJlLTQxZGIyYjg3ZTk1OS5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Ej5cPa7UfgXjUK9rNXVUoxvHx_GXyXbuYncuY-gWF_c");
+    --message: url(none);
+    --sendGift: url(none);
+    --createTrade: url(none);
+    --vWishlist: url(none);
+    --vTrade: url(none);
+    --block: url(none);
+    --addFriend: url(none);
 
     /*Cave Images */
-    --unsorted: url("");
-    --nesting: url("");
-    --overview: url("");
+    --unsorted: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Unsorted.png?raw=true");
+    --nesting: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Nesting.png?raw=true");
+    --overview: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Overview.png?raw=true");
 
     /*Cave Grid */
-    --caveUnused: url("");
-    --caveDefault: url("");
+    --caveUnused: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Default%20Unused.png?raw=true");
+    --caveDefault: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Default%20Unused.png?raw=true");
 
-    --caveTopL: url("");
-    --caveTopM: url("");
-    --caveTopR: url("");
-    --caveMidL: url("");
-    --caveMidM: url("");
-    --caveMidR: url("");
-    --caveBottomL: url("");
-    --caveBottomM: url("");
-    --caveBottomR: url("");
-    --addBeetleMound: url("https://www.avpcentral.com/images/xenomorph-weaknesses/xenomorph-eggs-and-facehuggers-are-vulnerable.jpg");
-    --beetleMound: url("https://www.avpcentral.com/images/xenomorph-weaknesses/xenomorph-eggs-and-facehuggers-are-vulnerable.jpg");
-    --beetleUnsorted: url("https://www.avpcentral.com/images/xenomorph-weaknesses/xenomorph-eggs-and-facehuggers-are-vulnerable.jpg");
+    --caveTopL: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/TopL.png?raw=true");
+    --caveTopM: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/TopM.png?raw=true");
+    --caveTopR: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/TopR.png?raw=true");
+    --caveMidL: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/MidL.png?raw=true");
+    --caveMidM: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/MidM.png?raw=true");
+    --caveMidR: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/MidR.png?raw=true");
+    --caveBottomL: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/BotL.png?raw=true");
+    --caveBottomM: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/BotM.png?raw=true");
+    --caveBottomR: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/BotR.png?raw=true");
+    --addBeetleMound: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Mounds.png?raw=true");
+    --beetleMound: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Mounds.png?raw=true");
+    --beetleUnsorted: url("https://github.com/Hok-Z/32042-Xenomorph/blob/main/Mounds.png?raw=true");
 
     /*Other */
     --ancestors: url("");
@@ -1116,8 +1116,6 @@ Please do not remove credit
 #player img[src$="icon_den_block.png"] {
     content: var(--block);
     width: var(--playerActionWidth);
-
-
 }
 
 #player img[src$="icon_den_friend.png"] {
@@ -1514,6 +1512,10 @@ a[href="./chat.php"] {
     background: var(--mainColorLighter);
 }
 
+/* Removes Bugbox logo */
+#pageSidebar > p > a > img {
+    display: none;
+}
 /*-------------------------*/
 /*CUSTOM ADDITIONS*/
 
@@ -1711,6 +1713,7 @@ p[lang="TW"] {
 /*-------------------------*/
 .select-control,
 button.button,
+.button,
 input[type="button"],
 input[type="submit"],
 input[type="reset"] {
