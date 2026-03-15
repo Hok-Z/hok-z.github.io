@@ -75,10 +75,10 @@ IF I'VE MISCREDITED OR MISSED CREDITING YOU, PLEASE DM ME.
    --backgroundIMG: url(https://www.gamewallpapers.com/wallpapers_slechte_compressie/01wallpapers/wallpaper_the_last_of_us_part_1_01_1920x1080.jpg);
    --backgroundGIF: url("https://i.imgur.com/xcyt3cn.gif");
    --kingProfileBorder: url("https://cdn.fastly.steamstatic.com/steamcommunity/public/images/items/1232580/7e41e2a48ea057e0f6267ff736815cd1354e04d3.png");
-   --headerAnim: url(https://i.redd.it/zp439ha000591.png) center center !important;
+   --headerAnim: url(https://raw.githubusercontent.com/Hok-Z/F2U-NIGHTREIGN/refs/heads/main/HEADER-NightReign.avif) center center !important;
    --LioLogo: url(https://github.com/Hok-Z/F2U-NIGHTREIGN/blob/main/ELDENRING-Logo.png?raw=true);
    --punnyBG: url("https://github.com/Hok-Z/F2U-NIGHTREIGN/blob/main/PUNNY-NightReign.jpg?raw=true");
-   --navbarMobileIMG: url("https://images.hdqwalls.com/download/2023-the-last-of-us-4k-yt-1125x2436.jpg");
+   --navbarMobileIMG: url("https://github.com/Hok-Z/F2U-NIGHTREIGN/blob/main/NAVBAR-Mobile.png?raw=true");
 
    /*Cave Images*/
    --overview: url("https://github.com/Hok-Z/F2U-NIGHTREIGN/blob/main/CAVE-Overview.png?raw=true");
@@ -131,7 +131,7 @@ IF I'VE MISCREDITED OR MISSED CREDITING YOU, PLEASE DM ME.
    #bs-example-navbar-collapse-1 {
       background: var(--navbarMobileIMG);
       background-size: 100%;
-      background-position-y: 70%;
+      background-position-y: 80%;
    }
 
    .navbar li a {
@@ -440,7 +440,7 @@ div.col-md-12.col-xs-12 > div:nth-child(4) > div > div > a > img:hover {
    background: transparent !important;
    color: white !important;
    border: 1px solid #051b29 !important;
-   mix-blend-mode:;
+   mix-blend-mode: difference;
    font-weight: 900;
 }
 
@@ -449,19 +449,19 @@ div.col-md-12.col-xs-12 > div:nth-child(4) > div > div > a > img:hover {
 }
 
 .progress-bar-warning {
-   background: #b58d73 !important;
+   background: #4e609c !important;
 }
 
 .progress-bar-danger {
-   background: #b58d73 !important;
+   background: #ba5353 !important;
 }
 
 .progress-bar-success {
-   background: #b58d73 !important;
+   background: #55868a !important;
 }
 
 div#bar__Thirst.progress .progress-bar-info {
-   background: #b58d73 !important;
+   background: #4e859c !important;
 }
 /*Transparency for Season/Day Cycle*/
 div.floatright.right img {
@@ -3161,4 +3161,4 @@ Main-Content::-webkit-scrollbar {
       opacity: 1;
       box-shadow: 0 0 2vw 0.4vw var(--fireflyGlow);
    }
-}	
+}
