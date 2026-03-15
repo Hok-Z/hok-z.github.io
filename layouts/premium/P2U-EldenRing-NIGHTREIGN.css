@@ -1388,6 +1388,11 @@ a:hover {
    border-bottom: 1px solid var(--OpaqueColorLessDark);
 }
 
+body > div.container.footer.white > div > div.col-xs-10 > ul::before {
+    content: "This den uses a premium css sold by Hok-Z #41458 / #170947. \a";
+    white-space: pre;
+}
+
 /*-------------------------*/
 /*Chatbox*/
 /*-------------------------*/
