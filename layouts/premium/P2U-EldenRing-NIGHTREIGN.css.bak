@@ -269,6 +269,7 @@ IF I'VE MISCREDITED OR MISSED CREDITING YOU, PLEASE DM ME.
       width: 50%;
       padding: 10px !important;
    }
+
 }
 
 /*Removes Duplicate Background from Chatbox HTML Layout.
@@ -415,10 +416,17 @@ div.container.main {
    box-shadow: none !important;
 }
 
+#pageSidebar > div.col-md-12.col-xs-12 > div:nth-child(4) > div > div {
+   display: flex !important;
+   align-items: center !important;
+   justify-content: space-around !important;
+}
+
 div.col-md-12.col-xs-12 > div:nth-child(4) > div > div > a > img {
    filter: saturate(0%);
    mix-blend-mode: plus-lighter;
    transition: 5s;
+   
 }
 
 div.col-md-12.col-xs-12 > div:nth-child(4) > div > div > a > img:hover {
@@ -1235,6 +1243,33 @@ overflow: auto !important;}
 
 .dynastylist .left {
    border: 1px solid var(--mainColorLight);
+}
+
+   /* dynasty list adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
+/* fits all elements on one line */
+body > div.container.main > div > div.col-md-9.col-xs-12 > center {
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+}
+.dynastylist {
+    flex: 1 1 auto;
+    max-width: 20%; 
+    box-sizing: border-box; 
+}
+/* resizes all images to fit the new layout */
+.dynastylist img {
+    height: 100%!important;
+     width: 100%!important;
+    border-radius: 2px;
+}
+ 
+/* font option 1 - apply font size to all headers at once.  */
+.dynastylist h3 {
+    word-break: break-all;
+    font-size: 15px !important; /* Adjust font size for all headers */
+}
+ #pageContainer > center > div.row.dynastycollection > div > a > div >h3 {
+	font-size: 1em !important;
 }
 
 /*-------------------------*/

@@ -644,6 +644,11 @@ h4,
    background: var(--mainColor);
 }
 
+body > div.container.footer.white > div > div.col-xs-10 > ul::before {
+    content: "This den uses a premium CSS sold by Hok-Z #41458 / #170947. \a";
+    white-space: pre;
+}
+
 /*-------------------------*/
 /*Cave Content and Tables*/
 /*-------------------------*/
